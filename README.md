@@ -1,7 +1,7 @@
 # Generics exercises
 
 ## First challenge
-Add a `filter(_:)` method to your `Stack` structure. It should take a single argument, a _closure_ that takes an `Element` and returns a `Bool`, and return a new `Stack<Element>` that contains any elements for which the closure returns `true`.
+Add a `myFilter(_:)` method to your `Stack` structure. It should take a single argument, a _closure_ that takes an `Element` and returns a `Bool`, and return a new `Stack<Element>` that contains any elements for which the closure returns `true`.
 
 ## Second challenge
 Write a generic function called `findAll(_:_:)` that takes an array of any type `T` that conforms to the `Equatable` protocol and a single element (also of type `T`). 
